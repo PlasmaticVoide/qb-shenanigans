@@ -280,7 +280,7 @@
 			id: "2053CCD1FF775DD5"
 			tasks: [{
 				id: "08A006973D835270"
-				item: "nuclearcraft:fission_reactor_controller"
+				item: "gtceu:fission_reactor"
 				type: "item"
 			}]
 			title: "{moni.quest.2053CCD1FF775DD5.title}"

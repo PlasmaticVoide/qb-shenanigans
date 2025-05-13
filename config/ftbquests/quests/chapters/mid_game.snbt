@@ -2546,7 +2546,7 @@
 				type: "item"
 			}]
 			x: 43.0d
-			y: 7.0d
+			y: 6.75d
 		}
 		{
 			dependencies: ["517A89E954C7EA74"]
@@ -2568,8 +2568,8 @@
 				type: "item"
 			}]
 			title: "{moni.quest.7D39A4D0CC886796.title}"
-			x: 41.5d
-			y: 7.0d
+			x: 41.25d
+			y: 6.75d
 		}
 		{
 			dependencies: ["5F109188BE4D9767"]
@@ -2591,37 +2591,7 @@
 				type: "item"
 			}]
 			x: 43.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"6ED1605A65CF3724"
-				"563B797BC7E2F3E3"
-				"5CEBFF8A30F9CB61"
-			]
-			description: [
-				"{moni.quest.3039269E43788431.description1}"
-				""
-				"{moni.quest.3039269E43788431.description2}"
-				""
-				"{moni.quest.3039269E43788431.description3}"
-			]
-			id: "3039269E43788431"
-			rewards: [{
-				count: 2
-				id: "601EA9673E14B279"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2F34F9E26F3E8779"
-				item: "nuclearcraft:plate_advanced"
-				type: "item"
-			}]
-			title: "{moni.quest.3039269E43788431.title}"
-			x: 47.0d
-			y: 8.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["517A89E954C7EA74"]
@@ -2657,31 +2627,12 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "0717C345303F89D1"
-				item: "nuclearcraft:tough_alloy_ingot"
+				item: "gtceu:tough_alloy_ingot"
 				type: "item"
 			}]
 			title: "{moni.quest.563B797BC7E2F3E3.title}"
 			x: 47.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["29A487F0BC43AAF9"]
-			description: ["{moni.quest.5CEBFF8A30F9CB61.description1}"]
-			id: "5CEBFF8A30F9CB61"
-			rewards: [{
-				id: "40CDC0E170AC52E8"
-				item: "kubejs:moni_nickel"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "62B776B854AF8612"
-				item: "nuclearcraft:hard_carbon_ingot"
-				type: "item"
-			}]
-			title: "{moni.quest.5CEBFF8A30F9CB61.title}"
-			x: 49.0d
-			y: 7.0d
+			y: 6.75d
 		}
 		{
 			dependencies: ["508452E1A3E09B56"]
@@ -2835,37 +2786,23 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["3039269E43788431"]
+			dependencies: [
+				"6ED1605A65CF3724"
+				"563B797BC7E2F3E3"
+			]
 			description: [
 				"{moni.quest.745628397790ED7A.description1}"
 				""
 				"{moni.quest.745628397790ED7A.description2}"
-				"{@pagebreak}"
+				""
 				"{moni.quest.745628397790ED7A.description3}"
 				""
 				"{moni.quest.745628397790ED7A.description4}"
-				""
 				"{moni.quest.745628397790ED7A.description5}"
-				""
 				"{moni.quest.745628397790ED7A.description6}"
-				"{@pagebreak}"
 				"{moni.quest.745628397790ED7A.description7}"
 				""
-				"{moni.quest.745628397790ED7A.description8}"
-				""
-				"{moni.quest.745628397790ED7A.description9}"
-				"{@pagebreak}"
-				"{moni.quest.745628397790ED7A.description10}"
-				""
-				"{moni.quest.745628397790ED7A.description11}"
-				""
-				"{moni.quest.745628397790ED7A.description12}"
-				"{@pagebreak}"
-				"{moni.quest.745628397790ED7A.description13}"
-				""
-				"{moni.quest.745628397790ED7A.description14}"
-				""
-				"[\"\",{\"translate\":\"moni.quest.745628397790ED7A.rich_description1\"},{\"color\":\"yellow\",\"underlined\":true,\"translate\":\"moni.quest.745628397790ED7A.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"40F7695BE1E65C41\"}},{\"translate\":\"moni.quest.745628397790ED7A.rich_description3\"}]"
+				"[\"\",{\"translate\":\"moni.quest.745628397790ED7A.rich_description1\"},{\"underlined\":\"true\",\"translate\":\"moni.quest.745628397790ED7A.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"40F7695BE1E65C41\"}},{\"translate\":\"moni.quest.745628397790ED7A.rich_description3\"}]"
 			]
 			disable_toast: true
 			icon: "gtceu:fission_reactor"
@@ -2904,7 +2841,7 @@
 			]
 			title: "{moni.quest.745628397790ED7A.title}"
 			x: 47.0d
-			y: 11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
